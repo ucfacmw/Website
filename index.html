@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>VTRAK</title>
+  <title>ACM-W</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="css/styles.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  <style>
-    #topBanner.jumbotron{
-      background-color: #00316B;
-      margin-bottom: 0px;
-    }
-    #topBanner.jumbotron > p{
-      float: right;
-      color: white;
-      font-family: "Calibri";
-      font-size: 36px;
-    }
-
-    .topTabs{
-      font-family: "Calibri";
-      font-size: 20px;
-    }
-
-    #bar{
-      padding: 5px;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 
-</body>
-  <div id="topBanner" class="jumbotron">
-    <p>To empower and engage women in computing</p>
+  <!-- Beginning of top header and navigation bar-->
+  <div class="jumbotron">
+    <p class="pull-right">To empower and engage women in computing.</p>
   </div>
 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
 
-  <div id= "ourNavigations">
-    <nav class="navbar navbar-inverse">
-      <div id="bar" class="container-fluid col-md-offset-2">
-        <ul class="nav navbar-nav">
-          <!--<li class="active"><a href="#">Home</a></li>-->
-          <li><a class = "topTabs" href="#">Calendar</a></li>
-          <li><a class = "topTabs" href="#">Our Team</a></li>
-          <li><a class = "topTabs" href="#">Recaps</a></li>
-          <li><a class = "topTabs" href="#">Gallery</a></li>
-          <li><a class = "topTabs" href="#">Blog</a></li>
-          <li><a class = "topTabs" href="#">Contact Us</a></li>
-          <li><a class = "topTabs" href="#">Sponsors</a></li>
-        </ul>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </nav>
-  </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Team<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">2018-2019</a></li>
+              <li><a href="#">Spring 2018</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Recaps</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Sponsors</a></li>
+        </ul>
+
+        <!--
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      -->
+      </div>
+    </div>
+  </nav>
+  <!--End of top header and navigation bar-->
+
+  </body>
 </html>
