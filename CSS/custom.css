@@ -1,3 +1,12 @@
+body{
+  background-color: #95BBED;
+}
+
+
+.homeImage{
+  width: 500px;
+  height: 350px;
+}
 .navbar-inverse{
   border-radius: 0;
 }
@@ -12,16 +21,6 @@
 .navbar-inverse .navbar-nav>li>a:active{
   background-color:  #808080;
 }
-/*
-.navbar-inverse{
-  width: 100%;
-  text-align: center;
-  >li{
-    float: none;
-    display: inline-block;
-  }
-}
-*/
 
 .jumbotron{
   background-color: #00316B;
