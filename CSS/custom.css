@@ -2,6 +2,23 @@ body{
   background-color: #95BBED;
 }
 
+#contactButton{
+  background-color: #00316B;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#contactUs .panel-body > p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.panel-heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #00316B !important;
+  color: white !important;
+}
 
 .homeImage{
   width: 500px;
